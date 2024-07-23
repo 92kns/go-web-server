@@ -4,5 +4,8 @@ simple http server in Go
 ## Usage
 
 ```shell
-./<path-to-bin> -port=<port-number> -dir=<dir-with-files> -host=<host>
+./<path-to-bin> -port=<port-number> -dir=<dir-with-files>
+
 ```
+
+Unless specified, defaults to `127.0.01:8080`
