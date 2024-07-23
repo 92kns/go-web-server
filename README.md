@@ -1,5 +1,9 @@
 # go-web-server
-simple http server in Go
+A simple http server written in Go. Precompiled binaries in `<src>/bin`.
+
+Very easy way to serve a directory of files by only needing to specify the `port` and `dir`
+
+
 
 ## Usage
 
