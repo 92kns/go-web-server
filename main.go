@@ -25,7 +25,7 @@ func main() {
 	http.Handle("/", fs)
 
 	// If everything is OK, we can start the server and host the files
-	address := fmt.Sprintf("%s:%d", *host, *port)
+	address := fmt.Sprintf("%s:%d", host, *port)
 	log.Printf("Serving %s on HTTP %s:%d\n", *dir, address)
 	err := http.ListenAndServe(address, nil)
 	if err != nil {
